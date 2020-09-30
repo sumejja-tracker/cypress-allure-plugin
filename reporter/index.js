@@ -86,7 +86,6 @@ class CypressAllureReporter {
                     'video/mp4',
                     path.join(
                         '..',
-                        'cypress',
                         'videos',
                         `${Cypress.spec.name}.mp4`
                     )
